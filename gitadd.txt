@@ -1,0 +1,10 @@
+cmd 
+git init
+git add .
+git status
+git commit -m "first commit"
+
+//if repo is not set to origin
+git remote add origin https://github.com/ramkrishna2105/user9.git
+
+git push -u origin master
